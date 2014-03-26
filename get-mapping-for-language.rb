@@ -1,6 +1,6 @@
 # -*- encoding : utf-8 -*-
-require "./russian-ipa-mapping"
-require "./mongol-ipa-mapping"
+require "./mappings/russian"
+require "./mappings/mongolian-cyrillic"
 
 def get_mapping_for_language language
 	return russian_ipa_mapping if language == "russian"
